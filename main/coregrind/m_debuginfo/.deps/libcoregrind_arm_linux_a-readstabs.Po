@@ -1,0 +1,1 @@
+m_debuginfo/libcoregrind_arm_linux_a-readstabs.o: m_debuginfo/readstabs.c

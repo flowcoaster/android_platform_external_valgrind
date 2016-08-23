@@ -1,0 +1,85 @@
+cg_merge-cg_merge.o: cg_merge.c \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdint.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/string.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/malloc.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/alloca.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/strings.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/memory.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/assert.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/ctype.h
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdint.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdlib.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/string.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/malloc.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/alloca.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/strings.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/memory.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/assert.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/ctype.h:

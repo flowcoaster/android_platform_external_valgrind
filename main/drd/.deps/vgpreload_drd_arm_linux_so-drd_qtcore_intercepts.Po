@@ -1,0 +1,36 @@
+vgpreload_drd_arm_linux_so-drd_qtcore_intercepts.o: \
+ drd_qtcore_intercepts.c \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/assert.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ drd_clientreq.h drd.h ../include/valgrind.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ drd_basics.h ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+ ../include/pub_tool_redir.h ../config.h
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/assert.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+
+drd_clientreq.h:
+
+drd.h:
+
+../include/valgrind.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h:
+
+drd_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../include/pub_tool_redir.h:
+
+../config.h:

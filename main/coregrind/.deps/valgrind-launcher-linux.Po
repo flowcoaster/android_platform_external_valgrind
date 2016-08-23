@@ -1,0 +1,235 @@
+valgrind-launcher-linux.o: launcher-linux.c pub_core_debuglog.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ pub_core_basics.h ../include/pub_tool_basics.h \
+ ../VEX/pub/libvex_basictypes.h ../VEX/pub/libvex.h \
+ ../VEX/pub/libvex_basictypes.h ../VEX/pub/libvex_ir.h \
+ ../VEX/pub/libvex_guest_arm.h pub_core_vki.h ../include/pub_tool_vki.h \
+ ../include/vki/vki-linux.h ../include/vki/vki-posixtypes-arm-linux.h \
+ ../include/vki/vki-arm-linux.h ../include/vki/vki-linux-drm.h \
+ pub_core_libcproc.h ../config.h ../include/pub_tool_libcproc.h \
+ ../include/pub_tool_basics.h ../include/pub_tool_vki.h pub_core_ume.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/assert.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/ctype.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/elf.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdint.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/exec_elf.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/exec.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/errno.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/errno.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/errno.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/errno.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/errno-base.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/fcntl.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/fcntl.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/fcntl.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/fcntl.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/unistd.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/select.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/time.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/time.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/signal.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/limits.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/limits.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/limits.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/limits.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/page.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/string.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/malloc.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/signal.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/siginfo.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysconf.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/capability.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/pathconf.h \
+ /home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/alloca.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/strings.h \
+ /home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/memory.h
+
+pub_core_debuglog.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h:
+
+pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../VEX/pub/libvex_guest_arm.h:
+
+pub_core_vki.h:
+
+../include/pub_tool_vki.h:
+
+../include/vki/vki-linux.h:
+
+../include/vki/vki-posixtypes-arm-linux.h:
+
+../include/vki/vki-arm-linux.h:
+
+../include/vki/vki-linux-drm.h:
+
+pub_core_libcproc.h:
+
+../config.h:
+
+../include/pub_tool_libcproc.h:
+
+../include/pub_tool_basics.h:
+
+../include/pub_tool_vki.h:
+
+pub_core_ume.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/assert.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/ctype.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/elf.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdint.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/exec_elf.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/exec.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/errno.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/errno.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/errno.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/errno.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/errno-base.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/fcntl.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/fcntl.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/fcntl.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/fcntl.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/unistd.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/select.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/time.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/time.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/signal.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/limits.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/limits.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/limits.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/limits.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/page.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/string.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/malloc.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/signal.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/siginfo.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysconf.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/capability.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/pathconf.h:
+
+/home/dasch/projects/android/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdlib.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/alloca.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/strings.h:
+
+/home/dasch/projects/android/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/memory.h:
