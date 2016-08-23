@@ -5600,12 +5600,41 @@ PRE(sys_ioctl)
       }
       break;
 
+#  if defined(ANDROID_HARDWARE_nexus_10)
+      /* undocumented ioctl ids noted on the device */
+   case 0x4d07:
+   case 0x6101:
+   case 0xfa01: /* used by NFC */
+   case 0xfa05: /* used by NFC */
+     return;
+#  elif defined(ANDROID_HARDWARE_nexus_7)
+     /* undocumented ioctl ids noted on the device */
+   case 0x4e04:
+   case 0x7231:
+   case 0x4004e901: /* used by NFC */
+     return;
+#  elif defined(ANDROID_HARDWARE_nexus_4)
+     
+#  endif
+
    default:
       PRINT("sys_ioctl ( %ld, 0x%lx, 0x%lx )",ARG1,ARG2,ARG3);
       PRE_REG_READ3(long, "ioctl",
                     unsigned int, fd, unsigned int, request, unsigned long, arg);
       break;
    }
+   
+#  if defined(ANDROID_HARDWARE_nexus_10)
+   
+   /* undocumented ioctl ids noted on the device */
+   if (ARG2 >= 0xc0108000 && ARG2 <= 0xc1e8820b && ARG3 != 0) {
+     int size = (ARG2 >> 16) & 0x3fff;
+     PRE_MEM_WRITE("ioctl(GL_UNDOCUMENTED)", (Addr)ARG3,  size);
+     return;
+   }
+
+#  endif
+
 
    // We now handle those that do look at ARG3 (and unknown ones fall into
    // this category).  Nb: some of these may well belong in the
@@ -7025,6 +7054,17 @@ POST(sys_ioctl)
    /* currently none are known */
    /* END generic/emulator specific ioctls */
 
+#  elif defined(ANDROID_HARDWARE_nexus_10)
+
+   /* undocumented ioctl ids noted on the device */
+   if (ARG2 >= 0xc0108000 && ARG2 <= 0xc1e8820b && ARG3 != 0) {
+      int size = (ARG2 >> 16) & 0x3fff;
+      POST_MEM_WRITE(ARG3, size);
+   }
+
+#  elif defined(ANDROID_HARDWARE_nexus_7)
+
+#  elif defined(ANDROID_HARDWARE_nexus_4)
 
 #  else /* no ANDROID_HARDWARE_anything defined */
 
